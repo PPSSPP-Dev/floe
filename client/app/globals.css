@@ -85,6 +85,10 @@
     * {
         @apply border-border outline-ring/50;
     }
+    *:focus-visible {
+  @apply outline-2 outline-ring outline-offset-2;
+}
+
     body {
         @apply bg-background text-foreground overflow-x-hidden;
     }
